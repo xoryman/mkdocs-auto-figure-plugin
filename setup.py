@@ -4,7 +4,7 @@ import os
 from setuptools import setup, find_packages
 
 
-def read_file(filename):
+def read_file(filename: str):
     """Read a local file"""
     return open(os.path.join(os.path.dirname(__file__), filename)).read()
 
